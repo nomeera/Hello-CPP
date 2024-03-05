@@ -20,10 +20,11 @@ bool XO_board(char cellnum, char xo[3][3], char isX)
             check++;
         }
 
-    // draw raw
+    
     if (valid)
     {
         cout << "***XO Game***\n";
+        // draw raw
         for (int i = 0; i < 7; i++)
         {
             // draw columns
@@ -146,11 +147,11 @@ int main()
         }
         else
         {
-            cout << "cell occupy, Please choose cell.";
+            cout << "Unempty cell, Please choose cell.";
             cin >> cell_num;
         }
 
-    } while (iterations < 10);
+    } while (iterations < 9);
 
     return 0;
 }
