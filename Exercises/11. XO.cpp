@@ -147,7 +147,7 @@ int main()
         }
         else
         {
-            cout << "Unempty cell, Please choose cell.";
+            cout << "non-empty cell, Please choose cell.";
             cin >> cell_num;
         }
 

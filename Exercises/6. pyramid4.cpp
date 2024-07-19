@@ -8,7 +8,7 @@ int main()
     cout << "Please Enter Pyramid Hight: ";
     cin >> hight;
 
-    int spaces = hight - 1;
+    int spaces = hight-1;
     int numbers = 1;
 
     // hight loop

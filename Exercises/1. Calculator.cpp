@@ -13,7 +13,7 @@ int main()
     cin >> num1;
     cout << "Please enter second number: ";
     cin >> num2;
-    cout << "Please choice one operation: "
+    cout << "Please choice operation: "
          << "1) Summation."
          << "2) Subtraction."
          << "3) Multiplication."
