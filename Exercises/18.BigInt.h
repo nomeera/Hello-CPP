@@ -52,7 +52,10 @@ public:
     {
         return internalNumber;
     }
-
+    ~BigInt() // A destructor is a member function that is invoked automatically when the object goes out of scope or is explicitly destroyed by a call to delete or delete[]
+    {
+        cout << "I am dying." << endl;
+    }
     // operator overloading
     BigInt operator+(BigInt i)
     {
@@ -63,7 +66,6 @@ public:
         internalNumber = AddTwoNumbers(this->internalNumber, "1"); // ++ operator when work : first increment this object value.
         return *this;                                              // and then return it.
     }
-
     BigInt &operator++()
     {
         internalNumber = AddTwoNumbers(this->internalNumber, "1");
