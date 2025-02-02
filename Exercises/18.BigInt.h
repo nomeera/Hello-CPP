@@ -25,14 +25,14 @@ private:
 
         // adding process
         int reminder = 0;
-        for (int i = str1.length() - 1; i >= 0; i--) // because string exist in memory from left to right and we adding from right to left
+        for (int i = str1.length() - 1; i >= 0; i--) 
         {
             char c1 = str1[i];
             char c2 = str2[i];
             int res = (c1 - '0') + (c2 - '0') + reminder;
             reminder = res / 10;
             res = res % 10;
-            result.insert(0, to_string(res));
+            result.insert(0, to_string(res)); // because string exist in memory from left to right and we adding from right to left
         }
         if (reminder)
             result.insert(0, to_string(reminder));
@@ -76,6 +76,7 @@ public:
         internalNumber = AddTwoNumbers(this->internalNumber, to_string(i));
         return *this;
     }
+    
     BigInt &operator+=(BigInt i)
     {
         internalNumber = AddTwoNumbers(this->internalNumber, i.internalNumber);
