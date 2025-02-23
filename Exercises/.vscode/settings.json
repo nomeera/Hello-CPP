@@ -75,9 +75,14 @@
         "fracp",
         "fracpart",
         "getavg",
+        "getdist",
         "intfrac",
         "intpart",
-        "repchar"
+        "repchar",
+        "setdist",
+        "setpart",
+        "showdist",
+        "showpart"
     ],
     "C_Cpp.errorSquiggles": "disabled"
 }
