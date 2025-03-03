@@ -67,13 +67,15 @@
         "cinttypes": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp",
-        "__nullptr": "cpp"
+        "__nullptr": "cpp",
+        "__bit_reference": "cpp"
     },
     "cSpell.words": [
         "addengl",
         "engldisp",
         "fracp",
         "fracpart",
+        "funsales",
         "getavg",
         "getdist",
         "intfrac",
